@@ -21,6 +21,7 @@ gem 'heroku'
 gem 'rails_12factor'
 
 gem 'twitter-bootstrap-rails'
+gem 'rails_admin'
 
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
