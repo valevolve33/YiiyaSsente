@@ -31,7 +31,15 @@ Admin
 </ul>
 </div>
 </nav>
+<%for page in @pages do%>
+<%=page.name%>
+<%= page.created_at%>
+<%= time_ago_in_words(page.created_at)%> ago
+<%end%>
 
+<%for footer in @pages do%>
+<%=footer.name%>
+<%end%>
 
 </body>
 </html>
